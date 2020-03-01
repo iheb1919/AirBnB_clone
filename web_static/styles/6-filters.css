@@ -86,6 +86,8 @@ list-style: none;
  .locations:hover .popover,
  .amenities:hover .popover {
     display: block;
+    z-index: 100;
+    background-color: white;
 }
 
 .locations .popover h2 {
@@ -100,16 +102,14 @@ list-style: none;
 }
 .locations .popover
 {
-
-  padding-top: 20px;
-  border-top: none;
+  margin-top: 19px;
+  padding-top: 25px;
   padding-left: 24px;
 }
 .amenities .popover
 {
   margin-top: 20px;
   padding-top: 1px;
-  border-top: none;
   padding-right: 10px;
   top: 0px;
 }
